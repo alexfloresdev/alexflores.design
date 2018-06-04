@@ -1,0 +1,1170 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* COLORS ========================================
+Dark Grey: #65646a;
+Bright Yellow: #ffef45;
+Dark Yellow: #f2aa00;
+Light Grey: #999a9e;
+Blue: #1b4ddc;
+VERY Light Grey: #efefef;
+================================================== */
+
+/* FONTS =========================================
+font-family: 'Lora', serif;
+font-family: 'Covered By Your Grace', cursive;
+================================================== */
+
+html {
+    background-color: #efefef;
+}
+
+body, html {
+    background: #ffffff;
+    max-width: 1535px;
+    margin: auto;
+
+}
+
+a {
+    color: #1b4ddc;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: #1b4ddc;
+    color: white;
+}
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}*/
+
+
+/*p {
+    font-family: 'Lora', serif;
+
+}*/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4{
+    font-weight:normal;
+
+}
+
+h1 {
+    
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+
+
+/*=============== 1.0 HEADER ============*/
+header {
+    width: 100%;
+    margin:auto;
+}
+
+/*== 1.1 LOGO ==*/
+#logo {
+    background:#1b4ddc;
+    font-family: 'Covered By Your Grace', cursive;    
+    color: #ffffff;
+    font-size: 25px;
+    text-align:center;
+    padding-bottom: 1.5%;
+    margin: auto;
+    padding-top: 1%;
+    
+    
+}
+
+    .logo img{
+        width:100%; 
+        margin:auto;
+        max-width: 375px;
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+
+
+/*.logo-img {
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+}
+
+/*#logo {
+    width: 100%;
+    margin: auto;
+    background: #ffffff;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #65646a;
+}*/
+
+
+
+/*== 1.2 NAVIGATION ==*/
+
+nav li {
+        border-bottom: 2px solid #65646a;
+    }
+
+nav {
+    width: 100%;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 55px;
+    /*padding-top: 1%;
+    padding-bottom: 1%;*/
+    
+}
+    nav ul {
+        margin: auto;
+        list-style:none;
+        padding: 0px;
+    }
+
+
+        nav ul li {
+            background: #ffffff;
+            text-align: center;
+            padding: 1% 0;        
+            
+        }
+
+            /*nav ul li a{
+                font-size:1.125em;
+                text-decoration-style: none;                
+                border-bottom: 2px solid: #65646a;
+            }*/
+
+/*========== 2.0 MAIN CONTENT =============*/
+#main-content {
+    clear:both;
+    width:100%;
+    margin: auto;
+
+}
+
+/*======== PHP Result =====================*/
+.result {
+    color: red;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+
+/*====== 2.1 WELCOME ======*/
+.welcome {
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #65646a;
+    font-weight: bold;
+
+}
+
+.welcome-message {
+    /*width: 98%;*/
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #65646a;
+    padding: 0% 1%;
+}
+
+/*==== 2.2 WORK ======*/
+.work {
+    /*width: 100%;*/
+    font-family: 'Covered By Your Grace', cursive;
+    color: #1b4ddc;
+    font-size: 25px;
+    letter-spacing: 1px;
+    background: #efefef;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: auto;    
+    padding-top: 1%;
+    
+
+}
+
+.portfolio-samples {
+    padding: 0% 2%;
+}
+
+.portfolio-sample1 {    
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
+    color: #65646a;
+    width:100%; 
+    margin:auto;
+    max-width: 375px;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+.portfolio-sample2 {
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
+    color: #65646a;
+    width:100%; 
+    margin:auto;
+    max-width: 375px;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+.portfolio-sample3 {
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
+    color: #65646a;
+    width:100%; 
+    margin:auto;
+    max-width: 375px;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+/*==== 2.3 ABOUT =====*/
+
+.about {
+    font-family: 'Covered By Your Grace', cursive;
+    color: #1b4ddc;    
+    width: 100%;
+    font-size: 25px;    
+    padding: 1% 0%;
+    text-align: center;
+    margin: auto; 
+
+}
+
+.story .skills .services {
+    margin: 10%;
+    padding-right: 2%;
+}
+
+.story-copy {
+    padding-top: 0.25%;
+}
+
+.about-background-img {
+    background-size:cover;
+    width:100%;
+    background-position:center;    
+    /*padding:4%;*/
+    float:left;
+    /*margin-right:5px;    
+    border:1px solid #1b4ddc;*/
+}
+
+
+
+
+#background-mobile {
+    background-image:url('../img/about-background-mobile.png');
+}
+
+
+.story {
+    /*width: 100%;*/
+    text-align: left;
+    font-family: 'Lora', serif;
+    color: #65646a;
+    padding-left: 2%; 
+}
+
+.skills {
+    /*width: 100%;*/
+    text-align: left;   
+    font-family: 'Lora', serif;
+    color: #65646a;
+    padding-left: 2%;
+}
+.services {
+    /*width: 100%;*/
+    text-align: left;      
+    font-family: 'Lora', serif;
+    color: #65646a;
+    padding-left: 2%;
+}
+
+ul {
+    margin: auto;
+    list-style: none;
+    padding: 0px;
+}
+    ul li {
+        text-align: left;
+    }
+
+
+/*================ 3.0 FOOTER ================*/
+footer {
+    width: 100%;
+    text-align: center;
+    /*margin: auto;*/
+    background: #efefef;
+    padding-bottom: 10%;
+    width: 100%;
+    clear: both;
+}
+
+
+/*==== 3.1 CONTACT ===*/
+.contact {
+    font-family: 'Covered By Your Grace', cursive;
+    color: #1b4ddc;
+    font-size: 25px;    
+    /*width: 100%;*/
+
+
+}
+
+.email {
+    /*width: 100%;*/
+    font-family: 'Lora', serif;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+
+form {
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lora', serif;
+    text-align: left;
+    margin-left: 2%;
+    color: #65646a;
+    margin-bottom: 30%;
+
+}
+
+input {
+    width: 96%;
+    padding-left: 1%;
+    margin-bottom: 5%;    
+    border: 5px #efefef;
+    box-sizing: border-box;
+    border: 1px solid #999a9e;
+}
+
+textarea {
+    width: 96%;
+    padding-bottom: 20%;
+    /*padding: 0% 2%;
+    margin: auto;*/
+    box-sizing: border-box;
+    border: 1px solid #999a9e;
+}
+
+input[type=button], input[type=submit], input[type=reset] {    
+    /*font-family: 'Open Sans', sans-serif;*/
+    text-align: center;
+    padding: 3% 5%;
+    width: 60%;
+    margin: 0% 18%;
+    background-color: #65646a;
+    cursor: pointer;    
+    color: #ffffff;
+    border: 2px solid #65646a;
+}
+
+
+
+/* COLORS ========================================
+Dark Grey: #65646a;
+Bright Yellow: #ffef45;
+Dark Yellow: #f2aa00;
+Light Grey: #999a9e;
+Blue: #1b4ddc;
+VERY Light Grey: #efefef;
+================================================== */
+
+/* FONTS =========================================
+font-family: 'Lora', serif;
+font-family: 'Covered By Your Grace', cursive;
+================================================== */
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media screen and (min-width: 768px) {
+    /*===== 1.0 HEADER ==============*/
+    header{
+        /*width:94%;*/
+        max-width:960px;
+        /*margin:auto;*/
+    }
+
+    .header-background-tablet-img {
+        background-position:left;    
+        background-repeat: no-repeat;        
+        float:left;
+        width: 100%;        
+        position:relative;
+        z-index:100;
+        /*padding-top: 70%;
+        padding-bottom: 20%;
+        
+        /*width: 30%;        
+        position:relative;
+        z-index:100;
+        padding:8%;
+        
+        /*background-size:cover;                
+        /*
+        
+        width:100%;
+        /*margin-right:5px;
+        border:1px solid #1b4ddc;*/
+    }
+ 
+
+    #background-header-tablet {
+        background-image:url('../img/header-background-tablet.png');
+    }
+
+    #logo {
+        display:none;
+        float:left;
+        width: 30%;        
+        position:relative;
+        z-index:100;
+    }
+
+    nav {
+        width: 48%;
+        float:right;
+        padding-right: 4%;
+    }
+    
+        nav ul li {
+            font-size: 36px;
+            display:block;        
+            float:left;
+            padding:0 6%;
+            border:none;
+            line-height:2em;
+            position:relative;
+            top:16px;
+        }
+
+    /*======== PHP Result =====================*/
+    .result {
+        color: red;
+        font-family: 'Lora', serif;
+        text-align: center;
+        margin: auto;
+        max-width: 40%;
+        margin-top: 12%;
+    }
+
+    /*======= 2.0 MAIN CONTENT =============*/
+    .welcome {
+        text-align: left;
+        width: 80%;
+        padding: 10% 0px 0px 15%;
+    }
+    
+    .welcome-message {
+        text-align: left;
+        width: 80%;
+        padding: 0px 0px 0px 15%;
+    }
+    
+    .work {
+        overflow: auto;
+        clear: both;
+        margin: auto;
+    }
+
+    /*.portfolio-samples {
+        padding-bottom: 5%;
+        font-family: 'Lora', serif;
+        color: #65646a;
+        width:100%; 
+        margin:2%;
+        max-width: 20%;
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }*/
+
+    .portfolio-samples {
+        margin: auto;
+        /*float: left;
+        overflow: auto;*/        
+    }
+
+    .portfolio-sample1 {
+        float: left;
+        max-width: 40%;
+        margin: auto;
+        padding: 0 6.5%;
+        /*padding-left: 10%;*/
+        
+    }
+
+    .portfolio-sample2 {
+        float: left;
+        max-width: 40%;
+        margin: auto;
+        /*padding: 2% 2%;
+        margin: auto;*/
+    }
+
+
+    .portfolio-sample3 {
+        max-width: 40%;
+        /*clear: both;
+        float: left;
+        clear: both;
+        margin: auto;
+        padding: 2%;*/
+    }
+    /*
+    .portfolio-sample3 img {
+        width:100%; 
+        margin:auto;
+        max-width: 42%;
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }*/
+
+
+    /*======= About =============*/
+    .about {
+        /*padding-left: 5%;*/
+        clear: both;
+    }
+
+    .about-background-img {
+        background-size:cover;
+        width:100%;
+        background-position:center;    
+        /*padding:4%;*/
+        float:left;
+        /*margin-right:5px;    
+        border:1px solid #1b4ddc;*/
+    }
+
+    #background-mobile {
+        background-image:url('../img/about-background-tablet.png');
+    }
+
+    .skills {
+        float: left;
+        padding-right: 20%;
+    }
+
+    .services {
+        float: left;
+    }
+
+    /*==== Contact ==============*/
+    .footer {
+        background: #1b4ddc;
+        clear: both;
+    }
+
+    .contact {
+        clear: both;
+
+    }
+
+    .email {
+        clear: both;
+        font-size: 25px;
+        padding-bottom: 8%;
+    }
+
+ 
+}
+
+@media screen and (min-width: 940px) {
+    /*======== 1.0 HEADER ===================*/
+    .header-background-tablet-img {
+        background-position:left;    
+        background-repeat: no-repeat;        
+        float:left;
+        width: 100%;        
+        position:relative;
+        z-index:100;
+        /*padding-top: 70%;
+        padding-bottom: 20%;
+        
+        /*width: 30%;        
+        position:relative;
+        z-index:100;
+        padding:8%;
+        
+        /*background-size:cover;                
+        /*
+        
+        width:100%;
+        /*margin-right:5px;
+        border:1px solid #1b4ddc;*/
+    }
+
+
+    #background-header-tablet {
+        background-image:url('../img/header-background-desktop.png');
+    }
+
+    nav {
+        width: 38%;
+        float:right;
+        padding-right: 4%;
+    }
+    
+        nav ul li {
+            font-size: 36px;
+            display:block;        
+            float:left;
+            padding:0 6%;
+            border:none;
+            line-height:2em;
+            position:relative;
+            top:16px;
+        }
+
+
+    /*======= 2.0 MAIN CONTENT =============*/
+    .welcome {
+        text-align: left;
+        width: 60%;
+        padding: 10% 0px 0px 15%;
+    }
+    
+    .welcome-message {
+        text-align: left;
+        width: 80%;
+        padding: 0% 0px 0px 15%;
+    }
+
+    /*.welcome {
+        text-align: left;
+        width: 90%;
+        padding: 5% 0px 0px 12%;
+    }
+    
+    .welcome-message {
+        text-align: left;
+        width: 90%;
+        padding: 0px 0px 0px 12%;
+    }*/
+
+    
+    /*.portfolio-samples {
+        padding-bottom: 5%;
+        font-family: 'Lora', serif;
+        color: #65646a;
+        width:100%; 
+        margin:2%;
+        max-width: 20%;
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }*/
+
+    .portfolio-samples {
+        margin: auto;
+        /*float: left;
+        overflow: auto;*/        
+    }
+
+    .portfolio-sample1 {
+        float: left;
+        padding: 0%;
+        max-width: 30%;
+        padding-left: 5%;
+        /*margin: auto;
+        padding: 0 6.5%;*/
+    }
+
+    .portfolio-sample2 {
+        float: left;
+        padding: 0%;
+        max-width: 30%;
+        /*margin: auto;
+        padding: 2% 2%;
+        margin: auto;*/
+    }
+
+
+    .portfolio-sample3 {
+        float: left;
+        padding: 0%;
+        max-width: 30%;    
+        padding-bottom: 7%;
+        /*clear: both;
+        float: left;
+        clear: both;
+        margin: auto;
+        padding: 2%;*/
+    }
+
+    /*
+    .portfolio-sample3 img {
+        width:100%; 
+        margin:auto;
+        max-width: 42%;
+        padding-top: 0%;
+        
+    }*/
+
+    /*.portfolio-samples {
+        width: 100%;
+        overflow: auto;
+        clear: both;
+    }
+
+    .portfolio-samples img {
+        max-width: 75%;
+    }
+
+    .portfolio-sample1 {
+        float: left;
+        display: inline-block;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .portfolio-sample2 {
+        float: left;
+        display: inline-block;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .portfolio-sample3 {
+        float: left;
+        display: inline-block;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .portfolio-sample3 img {
+        width:100%; 
+        margin:auto;
+        max-width: 42%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    */
+    
+    .about {
+        clear: both;
+    }
+
+    .story {
+        clear: both;
+        padding-left: 15%;
+    }
+
+    .skills {
+        padding-left: 15%;
+    }
+
+.email {
+        clear: both;
+        font-size: 25px;
+        padding-bottom: 4%;
+    }
+
+ form {
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lora', serif;
+    text-align: left;
+    color: #65646a;
+    margin: auto;
+    margin-bottom: 20%;
+    max-width: 70%;
+    
+
+}
+
+
+@media screen and (min-width: 1440px) {        
+    .header-background-tablet-img {
+        background-position:left;    
+        background-repeat: no-repeat;        
+        float:left;
+        width: 100%;        
+        position:relative;
+        z-index:100;
+        /*padding-top: 70%;
+        padding-bottom: 20%;
+        
+        /*width: 30%;        
+        position:relative;
+        z-index:100;
+        padding:8%;
+        
+        /*background-size:cover;                
+        /*
+        
+        width:100%;
+        /*margin-right:5px;
+        border:1px solid #1b4ddc;*/
+    }
+
+
+    #background-header-tablet {
+        background-image:url('../img/header-background-desktop-1440.png');
+    }
+   
+
+    nav {
+        width: 38%;
+        float:right;
+        padding-right: 0%;
+    }
+    
+        nav ul li {
+            font-size: 36px;
+            display:block;        
+            float:left;
+            /*padding:0 6%;*/  
+            border:none;
+            line-height:2em;
+            position:relative;
+            top:16px;
+        }
+
+
+
+
+    .welcome {
+        text-align: left;
+        width: 60%;
+        padding: 2% 0px 0px 15%;
+    }
+    
+    .welcome-message {
+        text-align: left;
+        width: 80%;
+        padding: 0% 0px 2% 15%;
+    }
+
+
+    .portfolio-sample1 {
+        float: left;
+        padding: 0%;
+        max-width: 25%;
+        padding-left: 7%;
+        margin: 0 2%;
+        /*margin: auto;
+        padding: 0 6.5%;*/
+    }
+
+    .portfolio-sample2 {
+        float: left;
+        padding: 0%;
+        max-width: 25%;
+        margin: 0 2%;
+        /*margin: auto;
+        padding: 2% 2%;
+        margin: auto;*/
+    }
+
+
+    .portfolio-sample3 {
+        float: left;
+        padding: 0%;
+        max-width: 25%;    
+        padding-bottom: 7%;
+        margin: 0 2%;
+        /*clear: both;
+        float: left;
+        clear: both;
+        margin: auto;
+        padding: 2%;*/
+    }
+
+ form {
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lora', serif;
+    text-align: left;
+    color: #65646a;
+    margin: auto;
+    margin-bottom: 10%;
+    max-width: 60%;
+    
+
+}
+
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
